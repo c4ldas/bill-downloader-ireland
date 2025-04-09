@@ -3,9 +3,9 @@ Selection of scripts you can use to download utility bills from some companies i
 
 Here you will find scripts for:
 - [Virgin Media Ireland](README.md#virgin-media-ireland-bill-downloader-nodejs-script)
-- [Three Ireland](README.md#three-ireland-bill-downloader) - Soon...
-- [SSE Aitricity Ireland](README.md#sse-airtricity-ireland-bill-downloader) - Soon...
+- [SSE Aitricity Ireland](README.md#sse-airtricity-ireland-bill-downloader)
 - [Vodafone Ireland](README.md#vodafone-ireland-bill-downloader) - Soon...
+- [Three Ireland](README.md#three-ireland-bill-downloader) - Soon...
 
 Initially, they are for Node.js, but I have plans to have Bash or PowerShell versions of them, if anyone needs that (let me know).
 
@@ -33,13 +33,6 @@ The script will fetch bills from your chosen start year up to the current year. 
 - The token will be valid for about 20 minutes. If it expires, repeat the step above.
 
 💡 This code was tested with Node.js version 22, but should work in other versions too
-
-## Three Ireland Bill Downloader (Node.js script)
-Company: _Three Ireland_
-
-File name: `three-ireland.mjs`
-
-Coming soon...
 
 ## SSE Airtricity Ireland Bill Downloader (Node.js script)
 Company: _SSE Aitricity_
@@ -70,5 +63,13 @@ The script will fetch bills from all period. Any errors encountered will be save
 Company: _Vodafone Ireland_
 
 File name: `vodafone-ireland.mjs`
+
+Coming soon...
+
+
+## Three Ireland Bill Downloader (Node.js script)
+Company: _Three Ireland_
+
+File name: `three-ireland.mjs`
 
 Coming soon...
