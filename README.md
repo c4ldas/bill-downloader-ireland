@@ -5,6 +5,7 @@ Here you will find scripts for:
 - [Virgin Media Ireland](README.md#virgin-media-ireland-bill-downloader-nodejs-script)
 - [Three Ireland](README.md#three-ireland-bill-downloader) - Soon...
 - [SSE Aitricity Ireland](README.md#sse-airtricity-ireland-bill-downloader) - Soon...
+- [Vodafone Ireland](README.md#vodafone-ireland-bill-downloader) - Soon...
 
 Initially, they are for Node.js, but I have plans to have Bash or PowerShell versions of them, if anyone needs that (let me know).
 
@@ -44,5 +45,13 @@ Coming soon...
 Company: _SSE Aitricity_
 
 File name: `sseairtricity-ireland.mjs`
+
+Coming soon...
+
+
+## Vodafone Ireland Bill Downloader
+Company: _Vodafone Ireland_
+
+File name: `vodafone-ireland.mjs`
 
 Coming soon...
