@@ -6,6 +6,7 @@ Here you will find scripts for:
 - [SSE Aitricity Ireland](README.md#sse-airtricity-ireland-bill-downloader-nodejs-script)
 - [Vodafone Ireland](README.md#vodafone-ireland-bill-downloader-nodejs-script)
 - [Three Ireland](README.md#three-ireland-bill-downloader-nodejs-script)
+- [Bord Gais Energy Ireland](README.md#bord-gais-energy-ireland-bill-downloader-nodejs-script)
 
 Initially, they are for Node.js, but I have plans to have Bash or PowerShell versions of them, if anyone needs that (let me know).
 
@@ -131,5 +132,27 @@ The script will try to fetch all bills in your account. Any errors encountered w
 The only important cookie values are `PA.my3Web` and `WIRELESS_SECURITY_TOKEN`. 
 
 If you want, you can copy just those ones, separating them by semicolon, on the cookie variable: `PA.my3Web=VALUE_HERE; WIRELESS_SECURITY_TOKEN=VALUE_HERE`
+
+## Bord Gais Energy Ireland Bill Downloader (Node.js Script)
+Company: _Bord Gais Energy Ireland_
+
+File name: `bord-gais-energy-ireland.mjs`
+
+This script downloads all your Bord Gais Energy bills in PDF format, even if they're no longer available through the website.
+
+✅ What you need to do:
+1. Get your *token* and *account number* from the Bord Gais Energy website.
+2. Set those values in the **USER CONFIGURATION** section of the script.
+3. Run the script using: `node bord-gais-energy-ireland.js`
+
+The script will fetch bills from all period. Any errors encountered will be saved in a file called `Errors found.txt`.
+
+🔑 How to get your token:
+- Log in to the Bord Gais Energy website.
+- Open your browser's DevTools (press F12), then go to the Console tab.
+- Run the following command:
+  
+    `JSON.parse(localStorage.accessToken).bgeAccessToken`
+- The token will be valid for about 5 minutes. If it expires, repeat the step above.
 
 💡 This code was tested with Node.js version 22, but should work in other versions too.
