@@ -134,7 +134,7 @@ The only important cookie values are `PA.my3Web` and `WIRELESS_SECURITY_TOKEN`.
 If you want, you can copy just those ones, separating them by semicolon, on the cookie variable: `PA.my3Web=VALUE_HERE; WIRELESS_SECURITY_TOKEN=VALUE_HERE`
 
 ## Bord Gáis Energy Ireland Bill Downloader (Node.js Script)
-Company: _Bord Gais Energy Ireland_
+Company: _Bord Gáis Energy Ireland_
 
 File name: `bord-gais-energy-ireland.mjs`
 
