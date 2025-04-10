@@ -33,6 +33,7 @@ Here's a short video demonstrating how the script works. In this example, you’
 https://github.com/user-attachments/assets/65d0f641-4cb4-4e5e-8a65-9f7d27f5bf85
 
 
+
 ## Virgin Media Ireland Bill Downloader (Node.js Script)
 
 Company: _Virgin Media Ireland_
@@ -58,6 +59,8 @@ The script will fetch bills from your chosen start year up to the current year. 
 
 💡 This code was tested with Node.js version 22, but should work in other versions too
 
+
+
 ## SSE Airtricity Ireland Bill Downloader (Node.js script)
 Company: _SSE Aitricity_
 
@@ -81,6 +84,7 @@ The script will fetch bills from all period. Any errors encountered will be save
 - The token will be valid for about 60 minutes. If it expires, repeat the step above.
 
 💡 This code was tested with Node.js version 22, but should work in other versions too.
+
 
 
 ## Vodafone Ireland Bill Downloader (Node.js script)
@@ -138,6 +142,10 @@ The script will try to fetch all bills in your account. Any errors encountered w
 The only important cookie values are `PA.my3Web` and `WIRELESS_SECURITY_TOKEN`. 
 
 If you want, you can copy just those ones, separating them by semicolon, on the cookie variable: `PA.my3Web=VALUE_HERE; WIRELESS_SECURITY_TOKEN=VALUE_HERE`
+
+💡 This code was tested with Node.js version 22, but should work in other versions too
+
+
 
 ## Bord Gáis Energy Ireland Bill Downloader (Node.js Script)
 Company: _Bord Gáis Energy Ireland_
