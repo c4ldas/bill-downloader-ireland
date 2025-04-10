@@ -9,6 +9,23 @@ Here you will find scripts for:
 
 Initially, they are for Node.js, but I have plans to have Bash or PowerShell versions of them, if anyone needs that (let me know).
 
+
+## Installation and usage
+
+- In order to use the scripts provided, you need to have Node.js installed in your computer. You can download it at https://nodejs.org/
+- Click on `Download Node.js (LTS)` and install it on your computer.
+- After installed, download the script you want to download the bills.
+- You need to edit the script to add your `token`, `cookie` or `account number`
+  - Open the script on Notepad or any other text editor
+  - Look for the line called `USER CONFIGURATION`. It is somewhere around lines 30 and 35.
+  - Replace the values `YOUR_COOKIE_HERE`, `YOUR_TOKEN_HERE`, `YOUR_ACCOUNT_NUMBER`, depending on the script.
+  - Save the file.
+- Go to the folder you downloaded the script and open a terminal.
+  - Click on the folder address bar and type `cmd` to open a terminal.
+  - Type `node script-name.mjs` to run the script.
+- You can see more instructions on the specific section for each script.
+
+
 ## Virgin Media Ireland Bill Downloader (Node.js Script)
 
 Company: _Virgin Media Ireland_
