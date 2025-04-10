@@ -1,5 +1,5 @@
 # bills-downloader-ireland
-Selection of scripts you can use to download utility bills from some companies in Ireland
+Selection of Node.js scripts you can use to download utility bills from some companies in Ireland.
 
 Here you will find scripts for:
 - [Virgin Media Ireland](README.md#virgin-media-ireland-bill-downloader-nodejs-script)
