@@ -53,8 +53,7 @@ The script will fetch bills from your chosen start year up to the current year. 
 - Log in to the Virgin Media website.
 - Open your browser's DevTools (press F12), then go to the Console tab.
 - Run the following command and copy the result:
-  
-    `localStorage["lgi-oidc-uxp-idToken"] + ',Atmosphere atmosphere_app_id="AEM_IE"'`
+  - `localStorage["lgi-oidc-uxp-idToken"] + ',Atmosphere atmosphere_app_id="AEM_IE"'`
 - The token will be valid for about 20 minutes. If it expires, repeat the step above.
 
 💡 This code was tested with Node.js version 22, but should work in other versions too
@@ -79,8 +78,7 @@ The script will fetch bills from all period. Any errors encountered will be save
 - Log in to the SSE Airtricity website.
 - Open your browser's DevTools (press F12), then go to the Console tab.
 - Run the following command:
-  
-    `JSON.parse(localStorage.authorizationResult).access_token`
+  - `JSON.parse(localStorage.authorizationResult).access_token`
 - The token will be valid for about 60 minutes. If it expires, repeat the step above.
 
 💡 This code was tested with Node.js version 22, but should work in other versions too.
@@ -165,8 +163,7 @@ The script will fetch bills from all period. Any errors encountered will be save
 - Log in to the Bord Gais Energy website.
 - Open your browser's DevTools (press F12), then go to the Console tab.
 - Run the following command:
-  
-    `JSON.parse(localStorage.accessToken).bgeAccessToken`
+  - `JSON.parse(localStorage.accessToken).bgeAccessToken`
 - The token will be valid for about 5 minutes. If it expires, repeat the step above.
 
 💡 This code was tested with Node.js version 22, but should work in other versions too.
