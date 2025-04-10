@@ -6,7 +6,7 @@ Here you will find scripts for:
 - [SSE Aitricity Ireland](README.md#sse-airtricity-ireland-bill-downloader-nodejs-script)
 - [Vodafone Ireland](README.md#vodafone-ireland-bill-downloader-nodejs-script)
 - [Three Ireland](README.md#three-ireland-bill-downloader-nodejs-script)
-- [Bord Gais Energy Ireland](README.md#bord-gais-energy-ireland-bill-downloader-nodejs-script)
+- [Bord Gáis Energy Ireland](README.md#bord-gáis-energy-ireland-bill-downloader-nodejs-script)
 
 Initially, they are for Node.js, but I have plans to have Bash or PowerShell versions of them, if anyone needs that (let me know).
 
@@ -133,7 +133,7 @@ The only important cookie values are `PA.my3Web` and `WIRELESS_SECURITY_TOKEN`.
 
 If you want, you can copy just those ones, separating them by semicolon, on the cookie variable: `PA.my3Web=VALUE_HERE; WIRELESS_SECURITY_TOKEN=VALUE_HERE`
 
-## Bord Gais Energy Ireland Bill Downloader (Node.js Script)
+## Bord Gáis Energy Ireland Bill Downloader (Node.js Script)
 Company: _Bord Gais Energy Ireland_
 
 File name: `bord-gais-energy-ireland.mjs`
