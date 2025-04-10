@@ -26,6 +26,11 @@ Initially, they are for Node.js, but I have plans to have Bash or PowerShell ver
   - Type `node script-name.mjs` to run the script.
 - You can see more instructions on the specific section for each script.
 
+## Sample video
+
+Here's a short video demonstrating how the script works. In this example, you’ll see one of the bill downloaders running and saving a PDF file automatically. It gives you a quick idea of what to expect once you’ve set everything up.
+
+[placeholder to the video]
 
 ## Virgin Media Ireland Bill Downloader (Node.js Script)
 
