@@ -30,7 +30,8 @@ Initially, they are for Node.js, but I have plans to have Bash or PowerShell ver
 
 Here's a short video demonstrating how the script works. In this example, you’ll see one of the bill downloaders running and saving a PDF file automatically. It gives you a quick idea of what to expect once you’ve set everything up.
 
-[placeholder to the video]
+https://github.com/user-attachments/assets/65d0f641-4cb4-4e5e-8a65-9f7d27f5bf85
+
 
 ## Virgin Media Ireland Bill Downloader (Node.js Script)
 
