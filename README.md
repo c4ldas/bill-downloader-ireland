@@ -5,7 +5,7 @@ Here you will find scripts for:
 - [Virgin Media Ireland](README.md#virgin-media-ireland-bill-downloader-nodejs-script)
 - [SSE Aitricity Ireland](README.md#sse-airtricity-ireland-bill-downloader)
 - [Vodafone Ireland](README.md#vodafone-ireland-bill-downloader)
-- [Three Ireland](README.md#three-ireland-bill-downloader) - Soon...
+- [Three Ireland](README.md#three-ireland-bill-downloader)
 
 Initially, they are for Node.js, but I have plans to have Bash or PowerShell versions of them, if anyone needs that (let me know).
 
@@ -94,4 +94,25 @@ Company: _Three Ireland_
 
 File name: `three-ireland.mjs`
 
-Coming soon...
+This script downloads all your Three bills in PDF format, even if they're no longer available through the website.
+
+✅ What you need to do:
+1. Get your *cookie* and *account number* from the Three website. Instructions below.
+2. Set the value in *USER CONFIGURATION* section.
+3. Run the script using: `node three-ireland.mjs`
+
+The script will try to fetch all bills in your account. Any errors encountered will be saved in a file called `Errors found.txt`.
+
+🔑 How to get your cookie:
+- The easiest way to copy the cookies value is installing a browser extension like `Cookie-Editor`: https://cookie-editor.com
+- Install the extension and after that, login to the Three website.
+- After login, click on Cookie-Editor extension icon > Export icon (bottom right) > Header String
+- The value will be copied to the clipboard, just paste it in the code where it says 'YOUR_COOKIE_HERE'.
+
+**Technical information (just out of curiosity):**
+
+The only important cookie values are `PA.my3Web` and `WIRELESS_SECURITY_TOKEN`. 
+
+If you want, you can copy just those ones, separating them by semicolon, on the cookie variable: `PA.my3Web=VALUE_HERE; WIRELESS_SECURITY_TOKEN=VALUE_HERE`
+
+💡 This code was tested with Node.js version 22, but should work in other versions too.
