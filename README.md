@@ -1,4 +1,4 @@
-# bills-downloader-ireland
+# bill-downloader-ireland
 Selection of Node.js scripts you can use to download utility bills from some companies in Ireland.
 
 Here you will find scripts for:
