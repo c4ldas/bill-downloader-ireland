@@ -6,7 +6,7 @@ Here you will find scripts for:
 - [SSE Aitricity Ireland](README.md#sse-airtricity-ireland-bill-downloader-nodejs-script)
 - [Vodafone Ireland](README.md#vodafone-ireland-bill-downloader-nodejs-script)
 - [Three Ireland](README.md#three-ireland-bill-downloader-nodejs-script)
-- [Bord Gáis Energy Ireland](README.md#bord-gáis-energy-ireland-bill-downloader-nodejs-script)
+- [Bord Gáis Energy Ireland](#bord-gáis-energy-ireland-bill-downloader-nodejs-script)
 
 Initially, they are for Node.js, but I have plans to have Bash or PowerShell versions of them, if anyone needs that (let me know).
 
