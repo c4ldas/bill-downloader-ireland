@@ -7,7 +7,7 @@
 // ✅ What you need to do:
 // 1. Get your *token* and *account number* from the Bord Gáis Energy website.
 // 2. Set those values in the USER CONFIGURATION section on line 30.
-// 3. Run the script using: `node bord-gais-energy-ireland.js`
+// 3. Run the script using: `node bord-gais-energy-ireland.mjs`
 //
 // The script will try to fetch all bills in your account.
 // Any errors encountered will be saved in a file called "Errors found.txt".
@@ -24,7 +24,6 @@
 // ----------------------------------------------------------
 
 import fs from 'fs';
-
 
 // ========== USER CONFIGURATION ============= //
 const token = 'YOUR_TOKEN_HERE';               // <-- update this
