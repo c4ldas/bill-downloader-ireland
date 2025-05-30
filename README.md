@@ -2,10 +2,10 @@
 Selection of Node.js scripts you can use to download utility bills from some companies in Ireland.
 
 Here you will find scripts for:
-- [Virgin Media Ireland](README.md#virgin-media-ireland-bill-downloader-nodejs-script)
-- [SSE Aitricity Ireland](README.md#sse-airtricity-ireland-bill-downloader-nodejs-script)
-- [Vodafone Ireland](README.md#vodafone-ireland-bill-downloader-nodejs-script)
-- [Three Ireland](README.md#three-ireland-bill-downloader-nodejs-script)
+- [Virgin Media Ireland](#virgin-media-ireland-bill-downloader-nodejs-script)
+- [SSE Aitricity Ireland](#sse-airtricity-ireland-bill-downloader-nodejs-script)
+- [Vodafone Ireland](#vodafone-ireland-bill-downloader-nodejs-script)
+- [Three Ireland](#three-ireland-bill-downloader-nodejs-script)
 - [Bord Gáis Energy Ireland](#bord-gáis-energy-ireland-bill-downloader-nodejs-script)
 
 Initially, they are for Node.js, but I have plans to have Bash or PowerShell versions of them, if anyone needs that (let me know).
