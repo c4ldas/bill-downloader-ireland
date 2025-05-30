@@ -67,7 +67,8 @@ async function getBillsHistory() {
     }
 
     const response = await request.json();
-    const data = response.filter(item => item.billUrl != "")
+    // const data = response.filter(item => item.billUrl != "");
+    const data = response.filter(item => item.transactionType == "Bill");
     return data;
 
   } catch (error) {
@@ -89,7 +90,7 @@ async function downloadBill(data) {
 
       if (!request.ok) {
         if (request.status == 404) {
-          console.log(`⚠️  Token expired or invalid. Please refresh the token.`);
+          console.log(`⚠️  Token expired or invalid. Please refresh the token. If this error persists, contact the script author.`);
           return;
         }
 
